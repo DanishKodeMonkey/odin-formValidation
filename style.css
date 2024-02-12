@@ -1,0 +1,138 @@
+root{
+    --system-ui:system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+/* Overarching container for page */
+.container{
+    display: flex;
+    height:100vh;
+}
+
+/* Title container(left side) */
+.background-container{
+    margin:0;
+    height: 100vh;
+    width: 30vw;
+    background-image: url("./images/Coffee.jpg");
+    background-size: cover;
+    background-color: #cccccc;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.452);
+    margin-top: 10vh;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:max(100px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    color: antiquewhite;
+
+}
+/* Make logo white */
+.logo>img{
+    filter: invert(100%);
+}
+.title-hero{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    font-family: crossorigin;
+    font-weight: normal;
+    font-size: clamp(40px, (1rem + 5vw), 100px);
+}
+
+/* Content container(right side) */
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color:blanchedalmond;
+}
+.content-text{
+    margin-left: 5vw;
+    font-family:var(--system-ui);
+    font-weight: 600;
+    font-size: clamp(10px, calc(14px + 3vw), 20px);
+    margin-left:5vh;
+    margin-bottom: 5vh;
+    margin-top:8vh;
+}
+
+/* Form stylings */
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.452), 0 6px 20px 0 rgba(128, 128, 128, 0.466);
+    padding: 2vw;
+    margin-bottom: 2%;
+}
+fieldset{
+    display: flex;
+    gap: 5%;
+    border: 0;
+    padding: 1rem 0;
+}
+
+.input>label{
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+    color: #0000009c;
+}
+input{
+    border:2px solid rgba(109, 109, 109, 0.274);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+    transition: 200ms ease-in-out;
+}
+input:focus{
+    border-color: aqua;
+}
+input:invalid{
+    border-color: red;
+}
+
+
+/* For submit button */
+.content-bottom{
+    margin-left:5%;
+
+}
+button{
+    background-color: darkgreen;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+/* Credits for the image */
+.image-credit{
+    position: absolute;
+    bottom: 8px;
+    left:50px;
+    }
+    .image-credit>h6,a{
+        margin: 0;
+        color: white;
+    }
