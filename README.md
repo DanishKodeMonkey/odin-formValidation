@@ -11,3 +11,11 @@ Forms serve the role of connecting the user to the service through a solid user 
 During The Odin Project curriculum, I am going to be working on forms, expanding upon it as I learn more.
 
 For now it is a simple one, using mainly HTMLS built in form type-checkers, but in the future I want to create a solid validation/security solution for the form, as practice.
+
+## Is that it?
+
+In the future I plan to expand on this form, I hope to add actual persistence in data to create a full process in the end.
+
+## Check it out!
+
+Check it out over here! Pretty fancy huh?
