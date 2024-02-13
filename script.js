@@ -16,3 +16,8 @@ function checkPasswords() {
     errMsg.textContent = "*Passwords do not match"
   }
 }
+
+/* <.< */
+function formWasALie() {
+  alert("This form is not real!")
+}
