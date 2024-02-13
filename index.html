@@ -19,6 +19,9 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
       rel="stylesheet" />
+    <script
+      src="./script.js"
+      defer></script>
     <title>The odin form project</title>
   </head>
   <body>
@@ -94,24 +97,32 @@
               </div>
             </fieldset>
             <fieldset>
-              <div class="input">
+              <div
+                class="input"
+                id="user-pwd-field">
                 <label for="user_pwd">PASSWORD:</label>
                 <input
                   type="password"
                   id="user_pwd"
                   name="user_pwd" />
+                <p id="errMsg"></p>
               </div>
               <div class="input">
                 <label for="confPwd">CONFIRM PASSWORD:</label>
                 <input
                   type="password"
-                  id="user_confPwd" />
+                  id="user_confPwd"
+                  onkeyup="checkPasswords()" />
               </div>
             </fieldset>
           </form>
         </div>
         <div class="content-bottom">
-          <button>Create Account</button>
+          <button
+            type="submit"
+            id="form-button">
+            Create Account
+          </button>
           <p>Already have an account? <a href="">Log in</a></p>
         </div>
       </div>
