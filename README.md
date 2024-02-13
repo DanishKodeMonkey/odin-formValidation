@@ -18,4 +18,4 @@ In the future I plan to expand on this form, I hope to add actual persistence in
 
 ## Check it out!
 
-[Check it out over here!](danishkodemonkey.github.io/odin-formValidation/) Pretty fancy huh?
+[Check it out over here!](https://danishkodemonkey.github.io/odin-formValidation/) Pretty fancy huh?
